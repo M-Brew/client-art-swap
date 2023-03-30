@@ -1,0 +1,9 @@
+.add-to-cart {
+    display: inline-block;
+    padding: 10px 20px 10px 20px;
+    border-radius: 25px;
+    background-color: whitesmoke;
+    color: #6c757d;
+    cursor: pointer;
+    transition: opacity 0.3s ease-in 0.2s, background-color 0.2s ease-in 0.1s;
+}

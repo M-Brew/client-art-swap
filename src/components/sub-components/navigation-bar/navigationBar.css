@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Plus&display=swap');
+
+.nav-custom {
+    background-color: whitesmoke !important;
+}
+
+.nav-title {
+    font-family: 'Gentium Plus', serif;
+    font-size: 2rem;
+}

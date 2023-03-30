@@ -1,0 +1,13 @@
+.footer-container {
+    background-color: whitesmoke;
+}
+
+.text {
+    font-size: 0.9rem;
+    opacity: 0.5;
+}
+
+.sm-icon {
+    margin-right: 1rem;
+    cursor: pointer;
+}

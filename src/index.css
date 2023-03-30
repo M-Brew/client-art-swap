@@ -1,8 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap"); */
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Plus&display=swap');
 
 body {
   margin: 0;
-  font-family: "Montserrat", sans-serif !important;
+  /* font-family: "Montserrat", sans-serif !important; */
+  font-family: 'Gentium Plus', serif !important;
+  font-size: 1.2rem;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
