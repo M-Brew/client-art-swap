@@ -4,29 +4,19 @@ import jwtDecode from "jwt-decode";
 import axios from "axios";
 
 import { NavigationBar } from "components/sub-components/navigation-bar/NavigationBar";
-import { Shop } from "./shop/Shop";
+import { Footer } from "components/sub-components/footer/Footer";
 import { GuestLogin } from "./login/GuestLogin";
 import { GuestSignUp } from "./login/GuestSignUp";
 import { Cart } from "./shop/cart/Cart";
 import { CheckoutSuccessful } from "./shop/cart/CheckoutSuccessful";
 import { CheckoutUnsuccessful } from "./shop/cart/CheckoutUnsuccessful";
+import { Home } from "./home/Home";
+import { About } from "./about/About";
+import { Shop } from "./shop/Shop";
+import { Contact } from "./contact/Contact";
 
 import { AuthContext } from "contexts/AuthContext";
 import { CartContext } from "contexts/CartContext";
-
-const UnderConstruction = () => (
-  <div
-    style={{
-      width: "100vw",
-      height: "100vh",
-      display: "flex",
-      justifyContent: "center",
-      alignItems: "center",
-    }}
-  >
-    <h3>Under Construction</h3>
-  </div>
-);
 
 export const Guest = () => {
   const [loggedIn, setLoggedIn] = useState(false);
@@ -98,10 +88,10 @@ export const Guest = () => {
       <CartContext.Provider value={{ cartItems, setCartItems }}>
         <NavigationBar />
         <Routes>
-          <Route path="/" element={<UnderConstruction />} />
-          <Route path="about" element={<UnderConstruction />} />
-          <Route path="gallery" element={<UnderConstruction />} />
+          <Route path="/" element={<Home />} />
+          <Route path="about" element={<About />} />
           <Route path="shop/*" element={<Shop />} />
+          <Route path="contact" element={<Contact />} />
           <Route
             path="sign-in"
             element={<AuthRoute outlet={<GuestLogin />} />}
@@ -125,6 +115,7 @@ export const Guest = () => {
             element={<CheckoutUnsuccessful />}
           />
         </Routes>
+        <Footer />
       </CartContext.Provider>
     </AuthContext.Provider>
   );

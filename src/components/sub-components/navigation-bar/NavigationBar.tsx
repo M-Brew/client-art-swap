@@ -59,11 +59,11 @@ export const NavigationBar = () => {
               <Nav.Link eventKey={2} as={Link} to={"/about"}>
                 About
               </Nav.Link>
-              <Nav.Link eventKey={3} as={Link} to={"/gallery"}>
-                Gallery
-              </Nav.Link>
               <Nav.Link eventKey={4} as={Link} to={"/shop"}>
                 Shop
+              </Nav.Link>
+              <Nav.Link eventKey={3} as={Link} to={"/contact"}>
+                Contact Us
               </Nav.Link>
             </Nav>
             <Nav className="justify-content-end flex-grow-1 pe-3">

@@ -165,3 +165,12 @@ interface IDashboardData {
   latestUsers: IGuest[];
   latestPurchases: IPurchase[];
 }
+
+// contact
+
+interface IContactMessage {
+  firstName: string;
+  lastName: string;
+  email: string;
+  message: string;
+}
