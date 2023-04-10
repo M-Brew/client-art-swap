@@ -17,7 +17,7 @@ export const ArtPiece = (props: IArtPiece) => {
                 <div className="text-wrapper">
                     <div className="card-name">{artPiece.title}</div>
                     <div className="card-price">
-                        GHC {artPiece.price.toFixed(2)}
+                        $ {artPiece.price.toFixed(2)}
                     </div>
                 </div>
             </Link>

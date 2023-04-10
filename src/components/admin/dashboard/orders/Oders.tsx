@@ -106,7 +106,7 @@ export const Orders = () => {
                                         onClick={() => handleOpenModal(order)}
                                     >
                                         <td>{`${order.user.firstName} ${order.user.lastName}`}</td>
-                                        <td>{`GHC ${order.amount / 100}`}</td>
+                                        <td>{`$ ${order.amount / 100}`}</td>
                                         <td>
                                             {order.status === "delivered" ? (
                                                 <Badge bg="success">

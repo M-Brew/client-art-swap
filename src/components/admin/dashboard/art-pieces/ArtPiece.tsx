@@ -107,7 +107,7 @@ export const ArtPiece = () => {
                             <div style={{ fontWeight: "bold" }}>Price</div>
                         </Col>
                         <Col xs={12}>
-                            <div>GHC {artPiece?.price}</div>
+                            <div>$ {artPiece?.price}</div>
                         </Col>
                         {/* <Col
                             xs={12}
