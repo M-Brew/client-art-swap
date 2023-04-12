@@ -1,17 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.6bb25c1d.css",
-    "main.js": "/static/js/main.d25b769c.js",
-    "static/js/679.157169bc.chunk.js": "/static/js/679.157169bc.chunk.js",
+    "main.css": "/static/css/main.8352ceab.css",
+    "main.js": "/static/js/main.6124d364.js",
+    "static/js/679.eac83857.chunk.js": "/static/js/679.eac83857.chunk.js",
     "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/samuel.jpeg": "/static/media/samuel.12563f03c96c7dfeedce.jpeg",
+    "static/media/exhibition-6.jpg": "/static/media/exhibition-6.68b6a0e4c3a4cea814b2.jpg",
+    "static/media/starry-nights.jpg": "/static/media/starry-nights.ef79f4a53655bbd485f6.jpg",
+    "static/media/exhibition-7.jpg": "/static/media/exhibition-7.74d0f513c2720107d6df.jpg",
+    "static/media/paul.jpg": "/static/media/paul.a50aef0478a21366bde5.jpg",
+    "static/media/jacob.jpeg": "/static/media/jacob.cf15bcf3451f2eb47985.jpeg",
+    "static/media/patricia.jpg": "/static/media/patricia.ef54e9d43e54019150c4.jpg",
+    "static/media/jackson.jpg": "/static/media/jackson.2c83a86a22d466c729fe.jpg",
     "index.html": "/index.html",
-    "main.6bb25c1d.css.map": "/static/css/main.6bb25c1d.css.map",
-    "main.d25b769c.js.map": "/static/js/main.d25b769c.js.map",
-    "679.157169bc.chunk.js.map": "/static/js/679.157169bc.chunk.js.map",
+    "main.8352ceab.css.map": "/static/css/main.8352ceab.css.map",
+    "main.6124d364.js.map": "/static/js/main.6124d364.js.map",
+    "679.eac83857.chunk.js.map": "/static/js/679.eac83857.chunk.js.map",
     "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6bb25c1d.css",
-    "static/js/main.d25b769c.js"
+    "static/css/main.8352ceab.css",
+    "static/js/main.6124d364.js"
   ]
 }
