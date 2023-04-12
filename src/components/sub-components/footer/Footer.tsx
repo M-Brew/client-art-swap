@@ -24,9 +24,10 @@ export const Footer = () => {
           <Col xs={12} md={5}>
             <h5>About ArtSwap</h5>
             <div className="text mb-2">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti
-              ullam numquam ipsam optio aliquam eos aut vitae praesentium!
-              Error, reprehenderit.
+              ArtSwap Ltd. is an organisation that thrives on the promotion and
+              business of arts and craft of Visual Artists. Our goals is to
+              promote the creative sectors and business sectors in the art
+              scenery in Ghana and Africa at large.
             </div>
             <div>
               <FontAwesomeIcon icon={faInstagram} className="sm-icon" />
@@ -46,7 +47,7 @@ export const Footer = () => {
                 icon={faEnvelope}
                 style={{ marginRight: "1rem" }}
               />{" "}
-              artswap@gmail.com
+              art@artswapinc.com
             </div>
           </Col>
           <Col xs={12} md={3}>

@@ -54,7 +54,7 @@ export const Contact = () => {
               </div>
               <div>
                 <div className="mb-2">Address: 123 Baker Street</div>
-                <div className="mb-2">Email: artswap@gmail.com</div>
+                <div className="mb-2">Email: art@artswapinc.com</div>
                 <div className="mb-2">
                   Phone: +233 50 550 5050 / +233 20 220 2020
                 </div>
