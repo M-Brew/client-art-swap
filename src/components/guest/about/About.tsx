@@ -5,6 +5,9 @@ import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowRightLong } from "@fortawesome/free-solid-svg-icons";
+
 import { useMediaQuery } from "components/utils/media-query-hook/MediaQueryHook";
 import starryNights from "../../../assets/starry-nights.jpg";
 import jacob from "../../../assets/jacob.jpeg";
@@ -12,8 +15,9 @@ import paul from "../../../assets/paul.jpg";
 import patricia from "../../../assets/patricia.jpg";
 import jackson from "../../../assets/jackson.jpg";
 import samuel from "../../../assets/samuel.jpeg";
-import exhibition6 from "../../../assets/exhibition-6.jpg";
 import exhibition7 from "../../../assets/exhibition-7.jpg";
+import nirvana1 from "../../../assets/nirvana-1.jpg";
+import occupiedSpace5 from "../../../assets/occupied-space-5.jpg";
 
 export const About = () => {
   const isMobile = useMediaQuery("(max-width: 480px)");
@@ -117,59 +121,97 @@ export const About = () => {
           </div>
           <div style={{ marginBottom: "3rem" }}>
             <Row>
-              <Col xs={12} md={5}>
-                <div
+              <Col xs={12} md={5} className="mb-4">
+                {/* <div
                   style={{
-                    height: "40vh",
+                    height: "50vh",
                     width: "100%",
                     backgroundColor: "#f8f9fa",
                     backgroundPosition: "center",
                     backgroundRepeat: "no-repeat",
                     backgroundSize: "cover",
-                    backgroundImage: `url(${exhibition6})`,
+                    backgroundImage: `url(${nirvana1})`,
                   }}
+                /> */}
+                <img
+                  src={nirvana1}
+                  alt="exhibition"
+                  width={"100%"}
+                  height="auto"
+                  style={{ borderRadius: "5px" }}
                 />
               </Col>
               <Col xs={12} md={{ span: 6, offset: 1 }}>
                 <div
                   style={{ textAlign: "start", fontWeight: "bold" }}
-                  className="my-4"
+                  className="mb-2"
                 >
-                  Exclusive Exhibition
+                  NIRVANA ART EXHIBITION
+                  <br />
+                  Venue : Open house studio, Dzorwulu - Accra
+                  <br />
+                  Date : 18th - 20th Dec 2020
                 </div>
-                <div style={{ textAlign: "start" }}>
-                  Deleniti explicabo harum perferendis porro expedita
-                  consequuntur veritatis doloremque obcaecati illum reiciendis
-                  aliquam ab maxime nihil autem deserunt voluptas voluptate quis
-                  mollitia, ullam, incidunt animi amet. Quidem quisquam autem
-                  minus tenetur quae, accusantium molestias aperiam maiores
-                  porro, a numquam nemo explicabo animi recusandae aliquam
-                  asperiores. Quo beatae eum optio libero?
+                <div style={{ textAlign: "start", fontSize: "1rem" }}>
+                  "The goal for people changed, especially in the aftermath of a
+                  very traumatic COVID year in Ghana, people were yearning to
+                  reach transcendent states where uneasiness is released and
+                  replaced with positive human experiences." The exhibition
+                  which is titled "NIRVANA" explored this idea to deliberately
+                  entice audiences to introspect, examine one's own mental and
+                  emotional processes, to achieve a new state and form of joy
+                  and peace. The works of art showcased the dynamic sense of
+                  being and living.
+                </div>
+                <div
+                  style={{
+                    textAlign: "start",
+                    fontSize: "1rem",
+                    fontWeight: "bold",
+                    cursor: "pointer",
+                  }}
+                  className="mt-2"
+                >
+                  more{" "}
+                  <FontAwesomeIcon icon={faArrowRightLong} className="ml-2" />
                 </div>
               </Col>
             </Row>
           </div>
-          <div>
+          <div style={{ marginBottom: "3rem" }}>
             <Row>
               <Col xs={12} md={6}>
                 <div
                   style={{ textAlign: "start", fontWeight: "bold" }}
-                  className="my-4"
+                  className="mb-2"
                 >
-                  Other Exclusive Exhibition
+                  FANTASM ART EXHIBITION <br />
+                  Venue : BuroGhana, Osu <br />
+                  Date : 24th Feb. 2023
                 </div>
-                <div style={{ textAlign: "start" }}>
-                  Deleniti explicabo harum perferendis porro expedita
-                  consequuntur veritatis doloremque obcaecati illum reiciendis
-                  aliquam ab maxime nihil autem deserunt voluptas voluptate quis
-                  mollitia, ullam, incidunt animi amet. Quidem quisquam autem
-                  minus tenetur quae, accusantium molestias aperiam maiores
-                  porro, a numquam nemo explicabo animi recusandae aliquam
-                  asperiores. Quo beatae eum optio libero?
+                <div style={{ textAlign: "start", fontSize: "1rem" }}>
+                  An arts exhibition featuring artists from multidisciplinary
+                  artistic practices. This exhibition takes the form of canvas
+                  painting, photography, mixed media and digital arts. In a room
+                  full of different representations of art, the art exhibition
+                  brings us close through the spheres of the artist's
+                  imaginations with each unique view.
+                </div>
+                <div
+                  style={{
+                    textAlign: "start",
+                    fontSize: "1rem",
+                    fontWeight: "bold",
+                    cursor: "pointer",
+                  }}
+                  className="mt-2"
+                >
+                  more{" "}
+                  <FontAwesomeIcon icon={faArrowRightLong} className="ml-2" />
                 </div>
               </Col>
-              <Col xs={12} md={{ span: 5, offset: 1 }}>
-                <div
+              <Col xs={12} md={{ span: 5, offset: 1 }} className="mt-4">
+                {/* <div
                   style={{
                     height: "40vh",
                     width: "100%",
@@ -179,7 +221,74 @@ export const About = () => {
                     backgroundSize: "cover",
                     backgroundImage: `url(${exhibition7})`,
                   }}
+                /> */}
+                <img
+                  src={exhibition7}
+                  alt="exhibition"
+                  width={"100%"}
+                  height="auto"
+                  style={{ borderRadius: "5px" }}
                 />
+              </Col>
+            </Row>
+          </div>
+          <div>
+            <Row>
+              <Col xs={12} md={5} className="mb-4">
+                {/* <div
+                  style={{
+                    height: "50vh",
+                    width: "100%",
+                    backgroundColor: "#f8f9fa",
+                    backgroundPosition: "center",
+                    backgroundRepeat: "no-repeat",
+                    backgroundSize: "cover",
+                    backgroundImage: `url(${occupiedSpace5})`,
+                  }}
+                /> */}
+                <img
+                  src={occupiedSpace5}
+                  alt="exhibition"
+                  width={"100%"}
+                  height="auto"
+                  style={{ borderRadius: "5px" }}
+                />
+              </Col>
+              <Col xs={12} md={{ span: 6, offset: 1 }}>
+                <div
+                  style={{ textAlign: "start", fontWeight: "bold" }}
+                  className="mb-2"
+                >
+                  OCCUPIED SPACE ART EXHIBITION
+                  <br />
+                  Venue : Open house studio, Dzorwulu - Accra
+                  <br />
+                  Date : 18th - 20th Dec 2020
+                </div>
+                <div style={{ textAlign: "start", fontSize: "1rem" }}>
+                  This exhibition presented selected works from artists from
+                  West Africa. These new works were developed in the aftermath
+                  of the lockdown after life had come back to a "semi-normal"
+                  state during which these artists used their art practice to
+                  recuperate mentally and professionally. The artists existed to
+                  own the new found space and exist in the now and move
+                  according to these new principles. The exhibition which is
+                  titled "OCCUPIED SPACE" however explores the idea of taking
+                  back control of that lost period of time and space, and
+                  adapting collectively in the current socioeconomic climate.
+                </div>
+                <div
+                  style={{
+                    textAlign: "start",
+                    fontSize: "1rem",
+                    fontWeight: "bold",
+                    cursor: "pointer",
+                  }}
+                  className="mt-2"
+                >
+                  more{" "}
+                  <FontAwesomeIcon icon={faArrowRightLong} className="ml-2" />
+                </div>
               </Col>
             </Row>
           </div>
