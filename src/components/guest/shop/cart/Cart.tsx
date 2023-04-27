@@ -118,7 +118,7 @@ export const Cart = () => {
                                                     >
                                                         <div>{item.title}</div>
                                                         <div>
-                                                            ${" "}
+                                                            GHC{" "}
                                                             {item.price.toFixed(
                                                                 2
                                                             )}
@@ -178,7 +178,7 @@ export const Cart = () => {
                                             {item.title} ({item.quantity})
                                         </span>
                                         <span>
-                                            ${" "}
+                                            GHC{" "}
                                             {(
                                                 item.price * item.quantity
                                             ).toFixed(2)}
@@ -188,7 +188,7 @@ export const Cart = () => {
                                 <div className="summary-total">
                                     <span>Total</span>
                                     <span>
-                                        ${" "}
+                                        GHC{" "}
                                         {getTotal().toLocaleString(undefined, {
                                             maximumFractionDigits: 2,
                                         })}
