@@ -121,7 +121,7 @@ export const SingleArtPiece = () => {
                                 Cost
                             </div>
                             <div className="price">
-                                $ {selectedSize?.price.toFixed(2)}
+                                GHC {selectedSize?.price.toFixed(2)}
                             </div>
                         </div>
                         <div className="mb-4">
