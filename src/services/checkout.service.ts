@@ -17,10 +17,21 @@ export class CheckoutService {
     }
   };
 
-  public verify = async (ref: string) => {
+  public verify = async (
+    ref: string,
+    items: {
+      id: string;
+      quantity: number;
+      selectedSizeId?: string;
+    }[]
+  ) => {
     try {
-      const response = await axiosInstance.get(
-        `/api/checkout/verify?reference=${ref}`
+      const response = await axiosInstance.post(
+        `/api/checkout/verify`,
+        { reference: ref, items },
+        {
+          headers: { "Content-Type": "application/json" },
+        }
       );
 
       return response;
