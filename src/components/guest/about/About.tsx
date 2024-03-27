@@ -10,11 +10,11 @@ import { faArrowRightLong } from "@fortawesome/free-solid-svg-icons";
 
 import { useMediaQuery } from "components/utils/media-query-hook/MediaQueryHook";
 import starryNights from "../../../assets/starry-nights.jpg";
-import jacob from "../../../assets/jacob.jpeg";
-import paul from "../../../assets/paul.jpg";
-import patricia from "../../../assets/patricia.jpg";
-import jackson from "../../../assets/jackson.jpg";
-import samuel from "../../../assets/samuel.jpeg";
+// import jacob from "../../../assets/jacob.jpeg";
+// import paul from "../../../assets/paul.jpg";
+// import patricia from "../../../assets/patricia.jpg";
+// import jackson from "../../../assets/jackson.jpg";
+// import samuel from "../../../assets/samuel.jpeg";
 import exhibition7 from "../../../assets/exhibition-7.jpg";
 import nirvana1 from "../../../assets/nirvana-1.jpg";
 import occupiedSpace5 from "../../../assets/occupied-space-5.jpg";
@@ -23,17 +23,17 @@ export const About = () => {
   const isMobile = useMediaQuery("(max-width: 480px)");
   const isTablet = useMediaQuery("(max-width: 990px)");
 
-  const team: ITeamMember[] = [
-    { name: "Jacob A. Brew", role: "Director", image: jacob },
-    { name: "Patricia Edwine-Poku", role: "Art Director", image: patricia },
-    { name: "Paul Nsakie", role: "Lead Curator", image: paul },
-    {
-      name: "Emmanuel Jackson",
-      role: "Communications & Marketing Lead",
-      image: jackson,
-    },
-    { name: "Samuel Owusu", role: "Business Manager", image: samuel },
-  ];
+  // const team: ITeamMember[] = [
+  //   { name: "Jacob A. Brew", role: "Director", image: jacob },
+  //   { name: "Patricia Edwine-Poku", role: "Art Director", image: patricia },
+  //   { name: "Paul Nsakie", role: "Lead Curator", image: paul },
+  //   {
+  //     name: "Emmanuel Jackson",
+  //     role: "Communications & Marketing Lead",
+  //     image: jackson,
+  //   },
+  //   { name: "Samuel Owusu", role: "Business Manager", image: samuel },
+  // ];
 
   return (
     <div>
@@ -294,7 +294,7 @@ export const About = () => {
           </div>
         </Container>
       </div>
-      <div
+      {/* <div
         style={{
           padding: "4rem 0",
         }}
@@ -367,13 +367,13 @@ export const About = () => {
             <div className="grid-item grid-item-6 image-item"></div>
           </div>
         </Container>
-      </div>
+      </div> */}
     </div>
   );
 };
 
-interface ITeamMember {
-  name: string;
-  role: string;
-  image: string;
-}
+// interface ITeamMember {
+//   name: string;
+//   role: string;
+//   image: string;
+// }

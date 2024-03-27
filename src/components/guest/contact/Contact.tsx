@@ -55,9 +55,9 @@ export const Contact = () => {
               <div>
                 <div className="mb-2">Address: Nazareth Street, Labone</div>
                 <div className="mb-2">Email: art@artswapinc.com</div>
-                <div className="mb-2">
+                {/* <div className="mb-2">
                   Phone: +233 50 426 1943
-                </div>
+                </div> */}
               </div>
             </Col>
             <Col xs={12} md={6}>

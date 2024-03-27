@@ -9,7 +9,7 @@ import {
   faFacebook,
   faSnapchat,
 } from "@fortawesome/free-brands-svg-icons";
-import { faPhone, faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { useNavigate } from "react-router-dom";
 
 import "./footer.css";
@@ -38,10 +38,10 @@ export const Footer = () => {
           </Col>
           <Col xs={12} md={{ span: 3, offset: 1 }}>
             <h5>Contacts</h5>
-            <div className="text mb-2">
+            {/* <div className="text mb-2">
               <FontAwesomeIcon icon={faPhone} style={{ marginRight: "1rem" }} />{" "}
               +233 50 426 1943
-            </div>
+            </div> */}
             <div className="text mb-2">
               <FontAwesomeIcon
                 icon={faEnvelope}
